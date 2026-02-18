@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero__right">
-        <div className="hero__monogram">{profile.initials}</div>
+        <img src="/isaac.jpg" alt="Isaac Magina" className="hero__photo" />
         <div className="hero__card">
           <strong>{profile.name}</strong>
           <span>{profile.currentRole}</span>
